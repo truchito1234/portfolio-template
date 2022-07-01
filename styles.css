@@ -232,3 +232,8 @@ footer {
     width: 90%;
     height: 90%;
 }
+
+.bi-heartbreak {
+    color: red;
+    display: inline-block;
+}
