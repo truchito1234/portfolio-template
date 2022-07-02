@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&display=swap');
 :root {
-    --primary-color: #3282B8;
-    --primary-color-dark: #0F4C75;
+    --primary-color: #05b3b6;
+    --primary-color-dark: #05b3b6;
     --accent-color: #FFF8F0;
 }
 
@@ -20,6 +20,7 @@ body {
     width: 100%;
     background-color: var(--primary-color-dark);
     z-index: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .menu {
@@ -201,6 +202,7 @@ footer {
     background-color: var(--primary-color-dark);
     color: var(--accent-color);
     padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .footer-section-container {
