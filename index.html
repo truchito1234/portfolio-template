@@ -5,127 +5,203 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <title>Mi Portfolio</title>
+
+
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <a href="#" class="logo">Mi Portfolio</a>
-            <ul class="menu">
-                <li class="menu-item">
-                    <a href="#home">Inicio</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#about">Sobre mí</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#projects">Experiencia</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#contact">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <div class="">
 
-    <section id="home" class="content">
-        <div class="half-section">
-            <div class="avatar-container">
-                <img src="./assets/nami.png" alt="">
-                <h3>"uwu"</h3>
+        <header class="header fixed-top">
+            <nav class="navbar navbar-expand-md navbar-light" id="sideNav">
+                <a href="#" class="navbar-brand logo">Mi Portfolio</a>
+
+
+
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="menu navbar-nav">
+                        <li class="menu-item">
+                            <a class="nav-link js-scroll-trigger" href="#home">Inicio</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="nav-link js-scroll-trigger" href="#about">Sobre mí</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="nav-link js-scroll-trigger" href="#projects">Experiencia</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="nav-link js-scroll-trigger" href="#tecnologias">Tecnologías</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section id="home" class="content">
+            <div class="half-section">
+                <div class="avatar-container">
+                    <img src="./assets/nami.png" alt="">
+                    <h3>"uwu"</h3>
+                </div>
             </div>
-        </div>
-        <div class="half-section text-section">
-            <div class="introduction">
-                <h1 class="title">Hola!, soy <br> Enzo</h1>
-                <ul class="socials">
-                    <li><a class="socials-icon" href=""><i class="bi bi-github"></i></a></li>
-                    <li><a class="socials-icon" href=""><i class="bi bi-linkedin"></i></a></li>
-                    <li><a class="socials-icon" href=""><i class="bi bi-twitter"></i></a></li>
-                    <li><a class="socials-icon" href=""><i class="bi bi-facebook"></i></a></li>
-                    <li><a class="socials-icon" href=""><i class="bi bi-instagram"></i></a></li>
+            <div class="half-section text-section">
+                <div class="introduction">
+                    <h1 class="title">Hola!, soy <br> Enzo</h1>
+                    <ul class="socials">
+                        <li><a class="socials-icon" href=""><i class="bi bi-github"></i></a></li>
+                        <li><a class="socials-icon" href=""><i class="bi bi-linkedin"></i></a></li>
+                        <li><a class="socials-icon" href=""><i class="bi bi-twitter"></i></a></li>
+                        <li><a class="socials-icon" href=""><i class="bi bi-facebook"></i></a></li>
+                        <li><a class="socials-icon" href=""><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+
+                    <p class="description">+3 años de experiencia trabajando en aplicaciones de todo tipo. <br> Déjame contarte un poco de mí, sigue deslizando!</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="about" class="content">
+            <aside class="half-section text-section">
+                <p>
+                    Cocinero desde los 5 años, albañil, ingeniero en backend con tegnolog&iacute;as Java y estudiante de programaci&oacute;n.
+                </p>
+                <p>
+                    Amo la programaci&oacute;n, podr&iacute;a pasarme horas y horas programando hasta desmayarme.</p>
+            </aside>
+            <aside class="half-section title-section">
+                <h2>Un poco sobre mí</h2>
+            </aside>
+        </section>
+
+        <section id="projects" class="content">
+            <aside class="half-section title-section">
+                <h2>Experiencia en el campo</h2>
+            </aside>
+            <aside class="half-section text-section">
+                <ul class="project-list">
+                    <li>
+                        <h3>Proyecto 1 (2018)</h3>
+                        <p>
+                            Enseñando a programar a alguien especial... <i class="bi bi-heartbreak"></i>
+                        </p>
+
+                        <div class=youtube-container>
+                            <iframe src="https://www.youtube.com/embed/blSZL9MmzCQ" frameborder="0" allowfullscreen></iframe>
+                        </div>
+
+                        <a class="project-link" href="https://www.youtube.com/watch?v=blSZL9MmzCQ"><i class="bi bi-youtube"></i> Ver más</a>
+                    </li>
+                    <li>
+                        <h3>Proyecto 2 (2019)</h3>
+                        <p>
+                            Primer proyecto Front-end</p>
+                        <a class="project-link" href="https://lomejordejapon.herokuapp.com/"><i class="bi bi-link"></i> Ver más</a>
+                    </li>
                 </ul>
+            </aside>
+        </section>
 
-                <p class="description">+3 años de experiencia trabajando en aplicaciones de todo tipo. <br> Déjame contarte un poco de mí, sigue deslizando!</p>
-            </div>
+        <section id="tecnologias" class="content">
+            <aside class="half-section text-section">
+                <div class="tech-icons-container">
+                    <ul class="tech-icon-list">
+                        <li class="tech-icon-item">
+                            <img height="120px" width="auto" src="./assets/tech-icons/icon-git.svg" alt="Git Icon">
+                            <span>Git</span>
+                        </li>
+                        <li class="tech-icon-item">
+                            <img height="120px" width="auto" src="./assets/tech-icons/icon-github.svg" alt="GitHub Icon">
+                            <span>GitHub</span>
+                        </li>
+                        <li class="tech-icon-item-end">
+                            <img height="120px" width="auto" src="./assets/tech-icons/icon-html.svg" alt="HTML Icon">
+                            <span>HTML</span>
+                        </li>
+                    </ul>
+                    <ul class="tech-icon-list">
+                        <li class="tech-icon-item">
+                            <img height="120px" width="auto" src="./assets/tech-icons/icon-css.svg" alt="CSS Icon">
+                            <span>CSS</span>
+                        </li>
+                        <li class="tech-icon-item">
+                            <img height="120px" width="auto" src="./assets/tech-icons/icon-js.svg" alt="JavaScript Icon">
+                            <span>JavaScript</span>
+                        </li>
+                        <li class="tech-icon-item-end">
+                            <img height="120px" width="auto" src="./assets/tech-icons/icon-react.svg" alt="ReactJS Icon">
+                            <span>React</span>
+                        </li>
+                    </ul>
+                    <ul class="tech-icon-list-end">
+                        <li class="tech-icon-item">
+                            <img height="120px" width="auto" src="./assets/tech-icons/icon-nodejs.svg" alt="NodeJS Icon">
+                            <span>NodeJS</span>
+                        </li>
+                        <li class="tech-icon-item">
+                            <img height="120px" width="auto" src="./assets/tech-icons/icon-postgresql.svg" alt="PostgreSQL Icon">
+                            <span>PostgreSQL</span>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            <aside class="half-section title-section">
+                <h2>Tecnologías que manejo</h2>
+            </aside>
+        </section>
+    </div>
 
-        </div>
-    </section>
-
-    <section id="about" class="content">
-        <aside class="half-section text-section">
-            <p>
-                Cocinero desde los 5 años, albañil, ingeniero en backend con tegnolog&iacute;as Java y estudiante de programaci&oacute;n.
-            </p>
-            <p>
-                Amo la programaci&oacute;n, podr&iacute;a pasarme horas y horas programando hasta desmayarme.</p>
-        </aside>
-        <aside class="half-section title-section">
-            <h2>Un poco sobre mí</h2>
-        </aside>
-    </section>
-
-    <section id="projects" class="content">
-        <aside class="half-section title-section">
-            <h2>Experiencia en el campo</h2>
-        </aside>
-        <aside class="half-section text-section">
-            <ul class="project-list">
-                <li>
-                    <h3>Proyecto 1 (2018)</h3>
-                    <p>
-                        Enseñando a programar a alguien especial... <i class="bi bi-heartbreak"></i>
-                    </p>
-
-                    <div class=youtube-container>
-                        <iframe src="https://www.youtube.com/embed/blSZL9MmzCQ" frameborder="0" allowfullscreen></iframe>
-                    </div>
-
-                    <a class="project-link" href="https://www.youtube.com/watch?v=blSZL9MmzCQ"><i class="bi bi-youtube"></i> Ver más</a>
-                </li>
-                <li>
-                    <h3>Proyecto 2 (2019)</h3>
-                    <p>
-                        Primer proyecto Front-end</p>
-                    <a class="project-link" href="https://lomejordejapon.herokuapp.com/"><i class="bi bi-link"></i> Ver más</a>
-                </li>
-            </ul>
-        </aside>
-    </section>
     <section id="contact" class="content">
+        <aside class="half-section title-section ">
+            <h2>Envíame un mensaje y charlemos!</h2>
+        </aside>
         <aside class="half-section text-section">
             <form action="">
                 <label for="name">Nombre</label>
                 <input class="input-field" type="text" name="name" id="name">
                 <label for="email">Email</label>
-                <input class="input-field type=" email " name="email " id="email ">
-        <label for="message ">Mensaje</label>
-        <textarea class="input-field " name="message " id="message " cols="30 " rows="10 "></textarea>
-        <input class="btn-send-message " type="submit " value="Enviar ">
-    </aside>
-    <aside class="half-section title-section ">
-      <h2>Envíame un mensaje y charlemos!</h2>
-    </aside>
-  </section>
+                <input class="input-field" type="email" name="email " id="email ">
+                <label for="message ">Mensaje</label>
+                <textarea class="input-field " name="message " id="message " cols="30 " rows="10 "></textarea>
+                <button class="btn-send-message " type="submit">Enviar</button>
+        </aside>
 
-  <footer>
-    <div class="footer-section-container ">
-      <ul class="socials ">
-        <li><a class="socials-icon " href="https://github.com/truchito1234 "> <i class="bi bi-github "></i></a></li>
-        <li><a class="socials-icon " href=" "><i class="bi bi-linkedin "></i></a></li>
-        <li><a class="socials-icon " href=" "><i class="bi bi-twitter "></i></a></li>
-        <li><a class="socials-icon " href=" "><i class="bi bi-facebook "></i></a></li>
-        <li><a class="socials-icon " href=" "><i class="bi bi-instagram "></i></a></li>
-      </ul>
+    </section>
+
+    <footer>
+        <div class="footer-section-container">
+            <ul class="socials ">
+                <li>
+                    <a class="socials-icon" href="https://github.com/truchito1234"> <i class="bi bi-github "></i></a>
+                </li>
+                <li><a class="socials-icon" href=" "><i class="bi bi-linkedin"></i></a></li>
+                <li><a class="socials-icon" href=" "><i class="bi bi-twitter"></i></a></li>
+                <li><a class="socials-icon" href=" "><i class="bi bi-facebook"></i></a></li>
+                <li><a class="socials-icon" href=" "><i class="bi bi-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-section-container ">
+            <p>
+                &copy; 2022 - <a class="footer-link " href="https://www.linkedin.com ">Enzo Demian Aramayo</a>
+            </p>
+        </div>
+    </footer>
     </div>
-      <div class="footer-section-container ">
-        <p>
-          &copy; 2022 - <a class="footer-link " href="https://www.linkedin.com ">Enzo Demian Aramayo</a>
-        </p>
-      </div>
-  </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
